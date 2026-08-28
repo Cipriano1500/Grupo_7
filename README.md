@@ -11,6 +11,22 @@
 
 Docente:MIGUEL FRANCISCO ALMEIDA PEREIRA ROCHA
 
+
+                                                      TAFERA 1
+                                      🤖 Predição de Textos Humanos vs IA
+
+
+## 📋 Descrição do Projeto
+
+Este projeto desenvolve um classificador capaz de distinguir entre textos escritos por humanos e textos gerados por IA. Utilizamos técnicas de Processamento de Linguagem Natural (NLP) e machine learning.
+
+### Funcionalidades:
+- ✅ Pré-processamento de texto
+- ✅ Vetorização TF-IDF
+- ✅ Classificação de textos
+- ✅ Interface web para predição
+
+---
 ---
 
 ## 📁 Organização do Repositório
@@ -34,21 +50,6 @@ Docente:MIGUEL FRANCISCO ALMEIDA PEREIRA ROCHA
 
 para o arquivo AI_Human.csv, está disponível em: https://drive.google.com/drive/folders/1y71kcwjJChqrjjZfox6JoIK8wY-OKUNi
 
-                                                      TAFERA 1
-                                      🤖 Predição de Textos Humanos vs IA
-
-
-## 📋 Descrição do Projeto
-
-Este projeto desenvolve um classificador capaz de distinguir entre textos escritos por humanos e textos gerados por IA. Utilizamos técnicas de Processamento de Linguagem Natural (NLP) e machine learning.
-
-### Funcionalidades:
-- ✅ Pré-processamento de texto
-- ✅ Vetorização TF-IDF
-- ✅ Classificação de textos
-- ✅ Interface web para predição
-
----
 
 
                                                               TAREFA 2
