@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "hidden_dims": [
+    256,
+    128
+  ],
+  "activation": "elu",
+  "lambda_l2": 1e-05,
+  "dropout_rate": 0.3,
+  "max_features": 5000,
+  "threshold": 0.5,
+  "label_definition": {
+    "0": "Human",
+    "1": "AI"
+  }
+}

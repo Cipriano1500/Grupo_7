@@ -1,0 +1,24 @@
+{
+  "task": "Tarefa 3",
+  "model": "Embedding + BiLSTM PyTorch",
+  "device": "cpu",
+  "train_size": 35000,
+  "validation_size": 7500,
+  "test_size": 7500,
+  "vocab_size": 20000,
+  "max_len": 96,
+  "test_loss": 0.20001788521607716,
+  "test_accuracy": 0.9464,
+  "test_macro_f1": 0.9463345099751598,
+  "test_confusion_matrix": [
+    [
+      3680,
+      70
+    ],
+    [
+      332,
+      3418
+    ]
+  ],
+  "checkpoint": "models\\lstm_ai_human_best.pt"
+}
