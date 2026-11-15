@@ -1,1 +1,5 @@
 AI_Human.csv
+__pycache__/
+*.py[cod]
+tarefa1_output/*.csv
+tarefa1_output/*.npz

@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "source_metadata": {
+    "name": "AI_Human.csv",
+    "source_url": "PREENCHER_COM_URL_DA_FONTE_ORIGINAL",
+    "provider_or_authors": "PREENCHER",
+    "access_date": "PREENCHER",
+    "license": "PREENCHER OU 'não identificada na fonte'",
+    "language": "English",
+    "task": "Binary classification: human-written vs AI-generated text",
+    "label_definition": {
+      "0": "Human",
+      "1": "AI"
+    },
+    "selection_criteria": "PREENCHER",
+    "known_limitations": "PREENCHER: temas, origem, distribuição, possível viés de geração, etc."
+  },
+  "original_rows": 487235,
+  "final_rows": 464222,
+  "class_distribution": {
+    "0": 284462,
+    "1": 179760
+  },
+  "split_sizes": {
+    "train": 324955,
+    "validation": 69633,
+    "test": 69634
+  },
+  "tfidf": {
+    "max_features": 50000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "fit_on": "train only"
+  },
+  "cleaning": "HTML removal, whitespace normalization; punctuation/capitalization/contractions preserved",
+  "duplicate_policy": "remove conflicting canonical texts and keep one copy of same-label duplicates",
+  "files": [
+    "AI_Human_clean.csv",
+    "test.csv",
+    "tfidf_vectorizer.pkl",
+    "train.csv",
+    "validation.csv",
+    "X_test_tfidf.npz",
+    "X_train_tfidf.npz",
+    "X_validation_tfidf.npz"
+  ]
+}

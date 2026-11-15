@@ -1,0 +1,11 @@
+{
+  "dataset": "AI_Human.csv",
+  "preprocess": "preprocess.py::preprocess_text (v1)",
+  "model": "LinearSVC",
+  "splits": {
+    "train": 341051,
+    "val": 73098,
+    "test": 73086
+  },
+  "test_accuracy": 0.992857729250472
+}
