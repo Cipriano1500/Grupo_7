@@ -21,7 +21,7 @@ Docentes indicados no enunciado: Miguel Rocha e Lázaro Makili.
    - `tarefa_2_.ipynb` — Regressão Logística e DNN implementadas com NumPy.
    - `tarefa_3_.ipynb` — classificação com Embedding e BiLSTM em PyTorch.
    - `tarefa_2.ipynb` e `Tarefa_3.ipynb` — notebooks adicionais relacionados com as tarefas.
-3. Para avaliar as previsões, abra [`Submissao1/`](./Submissao1/). Os três ficheiros `submissao*-grupo7-s*.csv` contêm as 100 linhas de `dataset3_inputs.csv`, com as colunas `ID`, `Text` e `output`. A coluna `output` usa exatamente os rótulos `Human` e `AI`, conforme `instrucoes.pdf`.
+3. Para avaliar as previsões, abra [`Submissao1/`](./Submissao1/). Os dois ficheiros `submissao1-grupo7-s1.csv` e `submissao1-grupo7-s2.csv` contêm as 100 linhas de `dataset3_inputs.csv`, com as colunas `ID`, `Text` e `output`. A coluna `output` usa exatamente os rótulos `Human` e `AI`, conforme `instrucoes.pdf`.
 4. Consulte os pesos e métricas dos modelos em [`modelos_numpy/`](./modelos_numpy/) e [`models/`](./models/). Os scripts de predição e pré-processamento estão na raiz (`Predicao.py`, `predicao1.py` e `pre_proces.py`).
 5. Os conjuntos de dados menores estão na raiz: `dataset1_inputs.csv`, `dataset1_outputs.csv`, `dataset2_complete.csv` e `dataset3_inputs.csv`.
 
